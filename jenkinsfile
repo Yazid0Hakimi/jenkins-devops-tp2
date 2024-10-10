@@ -8,7 +8,7 @@ agent any
 stages {
 stage('Cloning Git') {
 steps {
-git 'https://github.com/oumaymaagherai/tp2_devops
+git 'https://github.com/Yazid0Hakimi/jenkins-devops-tp2.git'
 }
 }
 stage('Building image') {
